@@ -1,0 +1,30 @@
+body {
+    color: red;
+}
+
+h1 {
+    color: #41c205;
+}
+
+#title {
+    color: blue;
+}
+
+/* p {
+    color: mediumaquamarine;
+    background-color: black;
+} */
+
+.p-green {
+    color: green;
+    background-color: hotpink;
+}
+
+.p-red {
+    color: red;
+    background-color: black;
+}
+
+.p-large {
+    font-size: 32px;
+}

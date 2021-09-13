@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+
+body {
+  font-family: "Oxygen", sans-serif;
+  background: #870000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #190a05,
+    #870000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #190a05,
+    #870000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+}
+
+span {
+    font-weight: bold;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  padding: 50px;
+}
+
+.elements--left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.text {
+  font-size: 18px;
+  width: 400px;
+}
+
+.image {
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(233, 224, 230, 0.801);
+  transform: translateY(130px);
+  transition: all 0.5s ease-in-out;
+}
+
+.image:hover {
+    transform: translateY(0px);
+}
+
+.list {
+    margin-block-start: 50px;
+    font-family: "Oxygen", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    list-style-image: url('chess-pawn-solid.svg');
+}
+
+.form {
+    margin-block-start: 34px;
+    align-self: flex-end;
+}
+
+.form__input,
+.form__button {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  padding: 10px 18px;
+  border-radius: 10px;
+}
+
+.form__input:hover,
+.form__input:active,
+.form__button:hover,
+.form__button:active {
+    cursor: pointer;
+}
+
+.form__input {
+  background: rgba(255, 255, 255, 0.863);
+  border: 2px solid white;
+}
+
+.form__button {
+  background: black;
+  color: white;
+  border: 1px solid black;
+}
