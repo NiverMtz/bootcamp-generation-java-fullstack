@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+
+body {
+  font-family: "Oxygen", sans-serif;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.form {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  grid-gap: 5px;
+}
+
+input,
+textarea {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+input {
+  padding: 10px;
+}
+
+input[type="color"] {
+  padding: unset;
+  width: 100px;
+}
+
+button {
+  margin-block-start: 10px;
+  font-family: "Oxygen", sans-serif;
+  width: 100px;
+  grid-column: 2/3;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 10px;
+  justify-self: end;
+}
