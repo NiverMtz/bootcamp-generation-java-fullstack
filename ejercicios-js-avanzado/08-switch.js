@@ -1,5 +1,5 @@
 // const edad = parseInt(prompt("Ingresa edad: "));
-const edad = 34
+/* const edad = 34
 
 let mensaje = "";
 
@@ -18,4 +18,21 @@ switch (edad) {
         break
 }
 
-console.log(mensaje)
+console.log(mensaje) */
+
+const nombre = prompt("Nombre: ")
+let mensaje = "";
+
+switch( nombre ) {
+    case "carlos" :
+        mensaje = "Eres administrador";
+        break
+    case "juan":
+        mensaje = "Eres usuario";
+        break
+    default:
+        mensaje = "No tienes permisos para manejar el sistema"
+        break
+}
+
+document.write(mensaje)
