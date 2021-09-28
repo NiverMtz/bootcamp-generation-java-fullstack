@@ -1,5 +1,5 @@
 const $btn = document.querySelector("#btnCat");
-const $divDogs = document.querySelector("#cats");
+const $divDogs = document.querySelector("#cats"); 
 
 $btn.addEventListener("click", () => {
   fetch("https://dog.ceo/api/breeds/image/random")
