@@ -9,3 +9,5 @@ Actualmente tenemos ejercicios de los siguientes temas:
 - HTML
 - CSS
 - Bootstrap
+- JS Avanzado
+- DOM
