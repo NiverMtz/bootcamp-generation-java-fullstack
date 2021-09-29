@@ -6,6 +6,7 @@ var mostrar_cartas = () => {
   fetch("https://jsonplaceholder.typicode.com/albums/1/photos")
     .then((resp) => resp.json())
     .then((data) => {
+      console.log(data)
       var count = Object.keys(data).length;
       for (let n = 0; n < count; n++) {
         content += ` <div id="tarjeta" class="card m-3" style="width: 18rem;">
@@ -16,6 +17,7 @@ var mostrar_cartas = () => {
                     </div> `;
       }
       $contenedor.innerHTML = content;
+      
     });
 };
 
